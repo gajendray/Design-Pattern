@@ -1,0 +1,207 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{8815ED3E-3CFE-4C30-B2B9-249FEF8348EC}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>DesignPatterns</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\bgudipati\builder" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\objects\02\2e367f468870b90d38bb2ba1cbf07abc55c168" />
+    <None Include=".git\objects\09\3a2f8ba1192fbfd35ea679bc70cc950f12d1e9" />
+    <None Include=".git\objects\09\557712ea3f93783414217311ca0a462951705d" />
+    <None Include=".git\objects\0c\aa8c95fb76e894cfa04b051fe0d955428d1b86" />
+    <None Include=".git\objects\0d\cb5f87e3995e9c4904b40c069da57ecc3100af" />
+    <None Include=".git\objects\12\dd02efc5119660461bbe656316ad873e86de24" />
+    <None Include=".git\objects\12\e312f9d1fff0273508069962b86b1982bcd595" />
+    <None Include=".git\objects\1b\3a7ef18d19f30517045e48c2ac7084cdcd5b8d" />
+    <None Include=".git\objects\23\d162e96fa2d321f78bd3e571639bcbb0d5830e" />
+    <None Include=".git\objects\26\266302c1f3fe7eacb3539aaba0e721fa690acc" />
+    <None Include=".git\objects\2a\519de7b1678ce84d22fa23a6fb5fd277128747" />
+    <None Include=".git\objects\30\b08a8016f5fff89193ef701ba7fcd6eec24cbb" />
+    <None Include=".git\objects\30\fddba6513bc763fedd827dc44857ec8f738a63" />
+    <None Include=".git\objects\34\031f8e94aa3212cb5c5d059bb338ea17df8ca2" />
+    <None Include=".git\objects\35\f62b116301606f9f6a856d12d9def198714a1d" />
+    <None Include=".git\objects\39\1dbfb5a0e127cc6bfaa5a8b6ccea4c6151fd5f" />
+    <None Include=".git\objects\3a\359d238a7a88ac6cc1b4e8042560b113601a55" />
+    <None Include=".git\objects\3c\5dcfb9f4523faf48301d6193ea1183eb403772" />
+    <None Include=".git\objects\3d\bc1d424eea3056dd1399f94c737bbd7f1470a5" />
+    <None Include=".git\objects\49\a8076ff56c3b30db7bc830105c0a3ed4aefe0d" />
+    <None Include=".git\objects\4a\5c15e9804ea2f7dca09522632f1ca574691a55" />
+    <None Include=".git\objects\4b\c8ff057fff62c1b7160798b3f569fc66bafdbc" />
+    <None Include=".git\objects\57\83b538e7007302b3ed9d045505ad7adeb06349" />
+    <None Include=".git\objects\59\3d00d213d4a94c52efba5b93edb8f217089932" />
+    <None Include=".git\objects\64\08cce7a3b126616c908e395bfa57f1d8035fab" />
+    <None Include=".git\objects\65\decd7c36ed5fc05b81fe085e3f15f51a258a86" />
+    <None Include=".git\objects\6b\6114114f4e89a1f2d0e911ff090e541af1260c" />
+    <None Include=".git\objects\6b\8b22fa8697f5f9ee8adb2ec02c26df2e2f363b" />
+    <None Include=".git\objects\6c\bf4798016832058939f67cbc769687fddb4dd2" />
+    <None Include=".git\objects\6e\c19c379f2edd4748eaca7c54106f0fb1da21fb" />
+    <None Include=".git\objects\72\610551c2382fc75db6766400b6312518e3c510" />
+    <None Include=".git\objects\7b\45a39627704e8816d6505a48908a594a13b144" />
+    <None Include=".git\objects\7e\30df2506cd1455693102d3f52d9ee0f8a7a373" />
+    <None Include=".git\objects\7f\b19a086d33f6bac58eb262db103397ec472908" />
+    <None Include=".git\objects\84\2aee4530c24eceff989ec4329257ffe86fbb1d" />
+    <None Include=".git\objects\85\331ba20db35d938b510237dea8f25e49715a30" />
+    <None Include=".git\objects\87\26081e6b8c430ff3466d26f20b3b3796369c08" />
+    <None Include=".git\objects\8f\e15b199a6bdfd07d23700030674bc94ac1c375" />
+    <None Include=".git\objects\94\a91b12d2f60cebc1c95bec854c818134903270" />
+    <None Include=".git\objects\97\008c6d0fa5d01c1a18a57f070d31b97e61a4a4" />
+    <None Include=".git\objects\98\1c1b1bab0b0281a32fbc994982b71f9426c5ef" />
+    <None Include=".git\objects\9a\49bcd753e71d6df4d565a5edc0b2c8c7554617" />
+    <None Include=".git\objects\9a\dfcb2247f582e32dd868d05d3d2668f29cbe7c" />
+    <None Include=".git\objects\9e\6e02222aa4e731920126e7f3e93bd12093a89b" />
+    <None Include=".git\objects\a0\6abff395c23f5fe5e98d8fc4c1fd26a7efae3e" />
+    <None Include=".git\objects\a5\d4ce2da4c4e8348363ccdaa4f621916bab8822" />
+    <None Include=".git\objects\a7\f3f628f96284eff56c29fe62a980d170f95a63" />
+    <None Include=".git\objects\aa\e62e05cd6e5a6614243b2b2ceae64dcbad9c3f" />
+    <None Include=".git\objects\be\a09e947e0866c8c14cda2a77c4dd4b71066457" />
+    <None Include=".git\objects\be\a25f926af9dddcdb39931addf682aa50d43de4" />
+    <None Include=".git\objects\c0\be5928567cbaefcd97d69aa7aada4143740a09" />
+    <None Include=".git\objects\c9\867d051e0c2e9a295e02169ef4cbbc84eaf5ba" />
+    <None Include=".git\objects\cc\72634728de88e5c955854a7aff350857d013b5" />
+    <None Include=".git\objects\d0\a85a4010c956338d82c7e9bc75259904c723ea" />
+    <None Include=".git\objects\d1\8011c07bdf6caed841fecab0ef62e5c65bc5ae" />
+    <None Include=".git\objects\d6\dd7ffeba47911295b322f4bd389a6e142507c7" />
+    <None Include=".git\objects\d7\5cfe63b948eeb34fcac0916fafd2834a3331ba" />
+    <None Include=".git\objects\d8\4abde5b187f5dfcfa14723eec9db8efb4db9c4" />
+    <None Include=".git\objects\d8\7e51d2d879dfa73278aa1d0e353f5af2277188" />
+    <None Include=".git\objects\d9\e16fcf03327591276985f1263ff336398ea9ac" />
+    <None Include=".git\objects\da\1196ae1c1f5091bb468d4e8903dc97db7270ab" />
+    <None Include=".git\objects\da\906160590e418efd863bd63ae615e173cac9c3" />
+    <None Include=".git\objects\e0\1fa3f76a639fc78c5ae03e9d73dc74c16fef2e" />
+    <None Include=".git\objects\e1\4b202babb1aab5b54e740b6c0c89e3c05bbd70" />
+    <None Include=".git\objects\e3\a7b52ccb1a2a82defe5ce2d8cb74aeaa8c3fa2" />
+    <None Include=".git\objects\e7\c6e3bff05b765c129debf7596b0992eaa9b27b" />
+    <None Include=".git\objects\ed\8e37ef476d7e8b9010f2c37e1ec22d9d6cb9dc" />
+    <None Include=".git\objects\f1\98bd46fe300f0b37e6bd258fda0f9a5b083eee" />
+    <None Include=".git\objects\f5\7c4f5dcde9b3ea68d1205d44c66de352a10b8b" />
+    <None Include=".git\objects\f6\e64a87b994bf0c98f522a1e69a50d331f3e6f0" />
+    <None Include=".git\objects\fc\f0da01dc792ba71267bf8e1e17c6d7b0bb4684" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\bgudipati\builder" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".vs\Design-Pattern\v16\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="DesignPattern\DesignPattern.csproj" />
+    <None Include="DesignPattern\obj\Debug\DesignPattern.csprojAssemblyReference.cache" />
+    <None Include="DesignPattern\obj\Debug\DesignPattern.csprojResolveAssemblyReference.cache" />
+    <None Include="DesignPattern\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="DesignPattern\obj\Release\DesignPattern.csprojAssemblyReference.cache" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="DesignPattern\bin\Debug\DesignPattern.exe" />
+    <Content Include="DesignPattern\bin\Debug\DesignPattern.pdb" />
+    <Content Include="DesignPattern\bin\Debug\DesignPattern.vshost.exe" />
+    <Content Include="DesignPattern\obj\Debug\DesignPattern.csproj.FileListAbsolute.txt" />
+    <Content Include="DesignPattern\obj\Debug\DesignPattern.exe" />
+    <Content Include="DesignPattern\obj\Debug\DesignPattern.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DesignPattern\ABFVechicle\ABProduct\INormalBike.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\ABProduct\IScooty.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\ABProduct\iSportsBike.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\ConcreteFactory\Bajaj.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\ConcreteFactory\TVS.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\IABFactoryBikes.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\Products\BajajCD100.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\Products\BajajChetak.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\Products\BajajPulsar.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\Products\TVSAppache.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\Products\TVSJupitor.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\Products\TVSXL.cs" />
+    <Compile Include="DesignPattern\ABFVechicle\VechicleClient.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\AbstractProduct\INormalPhone.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\AbstractProduct\ISmartPhones.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\ConcreteFactory\Moto.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\ConcreteFactory\Nokia.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\ConcreteFactory\Samsung.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\IMobilePhone_ABFactory.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\MobileClient.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\Products\Moto_flip.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\Products\Moto_G2.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\Products\Nokia_1100.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\Products\Nokia_Lumia.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\Products\Samsung_Galaxy.cs" />
+    <Compile Include="DesignPattern\AbstractFactoryPattern\Products\Samsung_Guru.cs" />
+    <Compile Include="DesignPattern\FactoryPattern.cs" />
+    <Compile Include="DesignPattern\Program.cs" />
+    <Compile Include="DesignPattern\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="DesignPattern\bin\Release\" />
+    <Folder Include="DesignPattern\obj\Debug\TempPE\" />
+    <Folder Include="DesignPattern\src\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
