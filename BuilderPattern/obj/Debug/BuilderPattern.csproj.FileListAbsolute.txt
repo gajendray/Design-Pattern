@@ -1,0 +1,5 @@
+D:\design-patterns\Design-Pattern\BuilderPattern\bin\Debug\BuilderPattern.dll
+D:\design-patterns\Design-Pattern\BuilderPattern\bin\Debug\BuilderPattern.pdb
+D:\design-patterns\Design-Pattern\BuilderPattern\obj\Debug\BuilderPattern.csproj.CoreCompileInputs.cache
+D:\design-patterns\Design-Pattern\BuilderPattern\obj\Debug\BuilderPattern.dll
+D:\design-patterns\Design-Pattern\BuilderPattern\obj\Debug\BuilderPattern.pdb
