@@ -1,4 +1,6 @@
-﻿using DesignPattern.ABFVechicle.ABProduct;
+﻿using BuilderPattern;
+using BuilderPattern.Concrete;
+using DesignPattern.ABFVechicle.ABProduct;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,11 +9,18 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.ABFVechicle.Products
 {
-    class BajajChetak:IScooty
+    class BajajChetak: IScooty
     {
+        private Engineer _engineer;
+
+        public BajajChetak()
+        {
+            _engineer = new Engineer();
+        }
+
         public string GetScooty()
         {
-            return "Name: Chetak, CC:90cc";
+            return _engineer.BuildScooty(new Scooty());
         }
     }
 }

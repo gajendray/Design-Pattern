@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using DesignPattern.AbstractFactoryPattern;
 using DesignPattern.AbstractFactoryPattern.ConcreteFactory;
 using DesignPattern.AB;
@@ -37,12 +34,12 @@ namespace DesignPattern
 
             Console.WriteLine("*****************************************************************");
             #region Abstrct Factory Pattren Vechicles
-            IABFactoryBikes tvsBikes = new TVS();
-            VechicleClient tvsClient = new VechicleClient(tvsBikes);
-            Console.WriteLine("**************TVS Bikes*****************");
-            Console.WriteLine(tvsClient.GetNormalBike());
-            Console.WriteLine(tvsClient.GetScooty());
-            Console.WriteLine(tvsClient.GetSportsBike());
+            IABFactoryBikes bajajBikes = new Bajaj();
+            VechicleClient bajajClient = new VechicleClient(bajajBikes);
+            Console.WriteLine("**************Bajaj Bikes*****************");
+            Console.WriteLine(bajajClient.GetNormalBike());
+            Console.WriteLine(bajajClient.GetScooty());
+            Console.WriteLine(bajajClient.GetSportsBike());
            
 
             #endregion

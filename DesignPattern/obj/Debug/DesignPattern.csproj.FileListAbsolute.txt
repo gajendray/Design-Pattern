@@ -3,3 +3,13 @@ D:\Test\DesignPattern\DesignPattern\bin\Debug\DesignPattern.exe
 D:\Test\DesignPattern\DesignPattern\bin\Debug\DesignPattern.pdb
 D:\Test\DesignPattern\DesignPattern\obj\Debug\DesignPattern.exe
 D:\Test\DesignPattern\DesignPattern\obj\Debug\DesignPattern.pdb
+D:\design-patterns\Design-Pattern\DesignPattern\obj\Debug\DesignPattern.csproj.CoreCompileInputs.cache
+D:\design-patterns\Design-Pattern\DesignPattern\bin\Debug\DesignPattern.exe.config
+D:\design-patterns\Design-Pattern\DesignPattern\bin\Debug\DesignPattern.exe
+D:\design-patterns\Design-Pattern\DesignPattern\bin\Debug\DesignPattern.pdb
+D:\design-patterns\Design-Pattern\DesignPattern\bin\Debug\BuilderPattern.dll
+D:\design-patterns\Design-Pattern\DesignPattern\bin\Debug\BuilderPattern.pdb
+D:\design-patterns\Design-Pattern\DesignPattern\obj\Debug\DesignPattern.csprojAssemblyReference.cache
+D:\design-patterns\Design-Pattern\DesignPattern\obj\Debug\DesignPattern.csproj.CopyComplete
+D:\design-patterns\Design-Pattern\DesignPattern\obj\Debug\DesignPattern.exe
+D:\design-patterns\Design-Pattern\DesignPattern\obj\Debug\DesignPattern.pdb
